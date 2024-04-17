@@ -139,7 +139,7 @@
 
             })
         
-        let docs = await getDocs(collection(db, "albums"));
+        let docs = await getDocs(collection(db, "movies"));
         docs.forEach((doc) => {
             let row = doc.data();
             console.log(row);
